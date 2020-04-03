@@ -1,5 +1,4 @@
 # hello-django-2020spring
-
 ## part1
 ### 개발환경 구축 및 url 연결하기
 
@@ -7,7 +6,8 @@
     1. 개발 서버
 	    * python manage.py runserver : 개발 서버 작동
     2. 첫번째 뷰 작성하기
-	    * def (request): return HttpResponse : 가장 기본적인 형태의 뷰
+	    * def (request): return HttpResponse 
+	    : 가장 기본적인 형태의 뷰
 		* path('url',파일명.함수명,이름) : url에 연결
 		* include()  : 다른 URLconf 참고용으로 사용
     3. path(route, view, name, kwargs)
